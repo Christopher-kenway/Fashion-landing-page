@@ -167,7 +167,7 @@ input {
 .article-1 > img{
     width: 100%;
     height: auto;
-    border-radius: 10px;
+    border-radius: 5px;
 }
 
 .article-btn1{
@@ -203,7 +203,8 @@ input {
 .article-2 > img {
     width: 100%;
     outline: none;
-    border-radius: 5px;
+    border-radius: 2px;
+    box-shadow: 10px 14px 14px rgba(0, 0, 0, 0.25);
 }
 .article-btn2{
     outline: none;
@@ -226,6 +227,7 @@ input {
     transition: 0.3s ease;
     color: #333333;
 }
+
 
 .article-3{
     display: flex;
@@ -346,6 +348,7 @@ input {
     display: flex;
     font-family: 'Montserrat', sans-serif;
     font-size: 20px;
+    margin-top: 2rem;
     font-weight: 300;
     line-height: 23px;
     letter-spacing: 1px;
@@ -367,4 +370,14 @@ input {
     cursor: pointer;
     border-radius: 4px;
     
+}
+
+/*======BREAKPOINTS======*/
+
+/*==wide screen==*/
+@media screen and (max-width: 1024px) {
+    body{
+        width: 100%;
+        padding: 20px;
+    }
 }
