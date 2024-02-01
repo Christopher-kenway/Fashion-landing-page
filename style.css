@@ -145,8 +145,8 @@ input {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 10rem;
     justify-content: center;
+    margin: 10rem 0 10rem 0;
 }
 
 .section-1 > h3{
@@ -174,18 +174,32 @@ input {
 
 /*ARTICLE SECTION*/
 .article-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     padding: 2rem 3rem 1rem 3rem;
 }
 
 .article-1{
+    display: flex;
+    flex-direction: column;
     align-items: center;
-    position: relative;
+    justify-content: center;
+    align-items: center;
+  
+    
 }
 
 .article-1 > img{
-    width: 100%;
-    height: auto;
+    min-width: fit-content;
+    min-height: fit-content;
     border-radius: 5px;
+}
+
+.article-1 button:nth-of-type(1){
+    margin-left: auto;
+    
 }
 
 .article-btn1{
@@ -196,12 +210,10 @@ input {
     font-family: 'Roboto', sans-serif;
     font-size: 45px;
     color: white;
-    font-weight: lighter;
+    font-weight: 600;
     letter-spacing: 1px;
-    position: absolute;
-    bottom: 10rem;
-    left: 1rem;
     align-items: center;
+    text-shadow: 2px 2px 2px rgb(39, 39, 39);
 }
 
 
@@ -211,16 +223,25 @@ input {
     text-shadow: 3px 3px 3px #333333;
 }
 
+.article-grid{
+    display: grid;
+    flex-direction: column;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    justify-content: center;
+    align-items: center;
+       border: 2px solid red;
+ gap: 15erm;
+}
 .article-2{
     display: flex;
     flex-wrap: nowrap;
     justify-content: space-between;
-    padding-top: 50px;
-    gap: 20px;
+    padding-top: 5rem;
+    gap: 2em;
 }
 
 .article-2 > img {
-    width: 100%;
+    min-width: fit-content;
     outline: none;
     border-radius: 2px;
     box-shadow: 10px 14px 14px rgba(0, 0, 0, 0.25);
@@ -249,13 +270,7 @@ input {
 
 
 .article-3{
-    display: flex;
-    flex-wrap: nowrap;
-    justify-content: space-evenly;
-    gap: 20px;
-    padding-top: 50px;
-    overflow: hidden;
-    height: 640px;
+  
   
 }
 
