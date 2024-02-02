@@ -178,7 +178,6 @@ input {
     flex-direction: column;
     border: 2px solid blue;
     margin: 2rem 3rem;
-    padding: 3rem;
     justify-content: center;
 }
 
@@ -187,6 +186,7 @@ input {
 .article-1 > img{
     min-width: fit-content;
     min-height: fit-content;
+    padding: 3rem;
  
 }
 
@@ -204,7 +204,7 @@ input {
     align-items: center;
     text-shadow: 2px 2px 2px rgb(39, 39, 39);
     z-index: 1;
-    transform: translate(2rem, -15rem);
+    transform: translate(7rem, -20rem);
 }
 
 
