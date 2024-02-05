@@ -203,7 +203,6 @@ input {
     letter-spacing: 1px;
     align-items: center;
     text-shadow: 2px 2px 2px rgb(39, 39, 39);
-    z-index: 1;
     transform: translate(7rem, -20rem);
 }
 
@@ -214,131 +213,28 @@ input {
     text-shadow: 3px 3px 3px #333333;
 }
 
-.article-grid{
+.article-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
-    border: 2px solid red;
-    margin-top: 1rem;
-    gap: 3rem;
-    
-   
-}
-
-.article-2{
-    border: 2px solid blue;
-    align-items: center;
-    display: flex;
-    justify-content: center;
-}
-
-
-
-.article-2 > img {
-    border-radius: 10px;
-    box-shadow: 10px 14px 14px rgba(0, 0, 0, 0.25);
-}
-.article-btn2{
-    outline: none;
-    border: none;
-    background: none;
-    cursor: pointer;
-    font-family: 'Roboto', sans-serif;
-    font-size: 25px;
-    color: white;
-    font-weight: lighter;
-    letter-spacing: 1px;
-}
-
-.article-btn2:hover{
-    transition: 0.3s ease;
-    color: #333333;
-}
-
-
-.article-3{
-  
-  
-}
-
-.article-3 > img {
-    width: 100%; 
-    height: auto;
-    object-fit: cover;
-}
-
-.article-btn3{
-    outline: none;
-    border: none;
-    background: none;
-    cursor: pointer;
-    font-family: 'Roboto', sans-serif;
-    font-size: 25px;
-    color: white;
-    font-weight: lighter;
-    letter-spacing: 1px;
-    position: absolute;
-    align-items: center;
-    left: 21rem;
-    top: 180rem;
-    
-}
-.article-btn3:hover{
-    transition: 0.3s ease;
-    color: #333333;
-}
-
-.article-btn4{
-    outline: none;
-    border: none;
-    background: none;
-    cursor: pointer;
-    font-family: 'Roboto', sans-serif;
-    font-size: 25px;
-    color: white;
-    font-weight: lighter;
-    letter-spacing: 1px;
-    position: absolute;
-    align-items: center;
-    right: 13em;
-    top: 180rem;
-     
-}
-
-.article-btn4:hover{
-    transition: 0.3s ease;
-    color: #333333;
-}
-
-.article-4{
-    display: flex;
-    flex-wrap: nowrap;
-    justify-content: space-evenly;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, auto);
     gap: 20px;
-    padding-top: 50px;
-    overflow: hidden;
-    height: 640px;
-  
 }
 
-.article-4 > img {
-    width: 100%; 
-    height: auto;
-    object-fit: cover;
+.grid_article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
 }
 
-.article-btn5{
-    outline: none;
-    border: none;
-    background: none;
-    cursor: pointer;
-    font-family: 'Roboto', sans-serif;
-    font-size: 25px;
-    color: white;
-    font-weight: lighter;
-    letter-spacing: 1px;
-    position: absolute;
-    align-items: center;   
+.grid_article > img {
+    width: 100%; /* Make the images fill the container */
+    height: auto; /* Maintain the aspect ratio */
 }
+
+
+
+
 
 
 .fall-collection{
