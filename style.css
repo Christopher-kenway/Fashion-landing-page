@@ -3,13 +3,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
 
 
-*{
-    margin: 0; 
-    padding: 0;
-    box-sizing: border-box;
 
     
-}
+    
 
 body {
   background: #333333;
@@ -222,8 +218,7 @@ input {
     flex-direction: column;
     align-items: center;
     text-align: center;
-   
-    padding: 1rem;
+    
 
 }
 
@@ -251,12 +246,6 @@ input {
     transition: 0.3s ease;
     color: #f5f5dc;
     text-shadow: 3px 3px 3px #333333;
-}
-
-.article-6{
-    display: flex;
-    border: 1px solid blue;
-
 }
 
 .article-6 > img{
@@ -327,6 +316,9 @@ input {
 /*==wide screen==*/
 @media only screen and (max-width: 768px){
 
-    
+.navbar__nav{
+   
+}
+   
 
 }
